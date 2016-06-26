@@ -140,7 +140,7 @@ class FunSetSuite extends FunSuite {
     new TestSets{
       val s=union(union(s1,s2),union(s3,s4))
       assert(contains((filter(s,x=>x>3)),4),"filter 1")
-      assert(!(contains(filter(s,x=>x>2),1)),"filter 2")
+      assert(!(contains(filter(s,x=>x>2),1)),"filte 2")
     }
   }
   
